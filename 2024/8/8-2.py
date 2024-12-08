@@ -1,3 +1,6 @@
+#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+#Baut auf 1 auf unterschiede kommentiert
+#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ant_map = []
 with open("8-1.txt", "r") as datei:  # Encoding anpassen, falls nötig
     for line in datei:
@@ -12,12 +15,11 @@ summary = 0
 for i in range(len(ant_map)):
     for j in range(len(ant_map[i])):
         if ant_map[i][j] != ".":
-            #
-            summary += 1
             if ant_map[i][j] not in valsWpos:
                 valsWpos[ant_map[i][j]]=[]
             valsWpos[ant_map[i][j]].append((i, j))
-            ant_map[i][j] = "#"
+            ant_map[i][j] = "#"    # Die Türme selber haben jetzt auch ein Signal
+            summary += 1           #Deshalb +1 signal
 
 
 def tuple_sub(t1,t2):
@@ -40,18 +42,16 @@ for key in valsWpos:
         for second in valsWpos[key][i+1:]:
             first = valsWpos[key][i]
             dif = tuple_sub(first, second)
-            print(first, second, dif)
             first = tuple_add(first, dif)
             second = tuple_sub(second, dif)
 
-            while in_range(first):
-                if ant_map[first[0]][first[1]] != "#":
-                #print(first)
+            while in_range(first):#aus einer if jetzt eine while
+                if ant_map[first[0]][first[1]] != "#":#prüfung ob signal bereits vorhanden
                     summary += 1
                     ant_map[first[0]][first[1]] = "#"
-                first = tuple_add(first, dif)
-            while in_range(second):
-                #print(second)
+                first = tuple_add(first, dif)#Koordinaten updaten
+
+            while in_range(second):#""
                 if ant_map[second[0]][second[1]] != "#":
                     summary += 1
                     ant_map[second[0]][second[1]] = "#"

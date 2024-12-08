@@ -15,6 +15,7 @@ class Guard:
                     self.pos = (i, j)
         self.dir = (-1, 0)
 
+#Walk till out of map and mark every step
 def walk_till():
     visitedlist = set()
     visitedlist.add(guard.pos)

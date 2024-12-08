@@ -10,6 +10,7 @@ with open("2-1.txt", "r", encoding="utf-8") as datei:  # Encoding anpassen, fall
         zahlen = [int(x) for x in zahlen]
         A.append(zahlen)
 
+#Try all cases and if its unsafe add up
 unsafe = 0
 for i in A:
     isincreasing = None

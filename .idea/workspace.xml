@@ -4,11 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75ccf682-b3f8-4690-ae14-dd66705afe60" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/2024/6/6-1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024/6/6-1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024/6/6-2.py" afterDir="false" />
+    <list default="true" id="75ccf682-b3f8-4690-ae14-dd66705afe60" name="Changes" comment="Day8">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2024/2/2-1.py" beforeDir="false" afterPath="$PROJECT_DIR$/2024/2/2-1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2024/2/2-2.py" beforeDir="false" afterPath="$PROJECT_DIR$/2024/2/2-2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2024/4/4-1.py" beforeDir="false" afterPath="$PROJECT_DIR$/2024/4/4-1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2024/4/4-2.py" beforeDir="false" afterPath="$PROJECT_DIR$/2024/4/4-2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2024/5/5-1.py" beforeDir="false" afterPath="$PROJECT_DIR$/2024/5/5-1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2024/5/5-2.py" beforeDir="false" afterPath="$PROJECT_DIR$/2024/5/5-2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2024/6/6-1.py" beforeDir="false" afterPath="$PROJECT_DIR$/2024/6/6-1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2024/6/6-2.py" beforeDir="false" afterPath="$PROJECT_DIR$/2024/6/6-2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2024/7/7-1.py" beforeDir="false" afterPath="$PROJECT_DIR$/2024/7/7-1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2024/7/7-2.py" beforeDir="false" afterPath="$PROJECT_DIR$/2024/7/7-2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2024/8/8-1.py" beforeDir="false" afterPath="$PROJECT_DIR$/2024/8/8-1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2024/8/8-2.py" beforeDir="false" afterPath="$PROJECT_DIR$/2024/8/8-2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,32 +55,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.1-1.executor": "Run",
-    "Python.1-2.executor": "Run",
-    "Python.2-1.executor": "Run",
-    "Python.2-2.executor": "Run",
-    "Python.3-1.executor": "Run",
-    "Python.3-2.executor": "Run",
-    "Python.4-1.executor": "Run",
-    "Python.4-2.executor": "Run",
-    "Python.5-1.executor": "Run",
-    "Python.5-2.executor": "Run",
-    "Python.6-1.executor": "Run",
-    "Python.6-2.executor": "Run",
-    "Python.cheat.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/EnesY/PycharmProjects/AdventOfCode",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.1-1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.1-2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.2-1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.2-2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.3-1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.3-2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.4-1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.4-2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.5-1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.5-2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.6-1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.6-2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.7-1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.7-2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.8-1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.8-2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.cheat.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/EnesY/PycharmProjects/AdventOfCode&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\EnesY\PycharmProjects\AdventOfCode\2024" />
@@ -101,7 +114,10 @@
       <workItem from="1733311821028" duration="177000" />
       <workItem from="1733351120988" duration="513000" />
       <workItem from="1733427384771" duration="1224000" />
-      <workItem from="1733483134467" duration="12228000" />
+      <workItem from="1733483134467" duration="12319000" />
+      <workItem from="1733608722935" duration="7834000" />
+      <workItem from="1733661879261" duration="4461000" />
+      <workItem from="1733666600035" duration="1291000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -111,7 +127,31 @@
       <option name="project" value="LOCAL" />
       <updated>1733351572835</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Day6">
+      <option name="closed" value="true" />
+      <created>1733495585307</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1733495585307</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Day7">
+      <option name="closed" value="true" />
+      <created>1733618728228</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1733618728228</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Day8">
+      <option name="closed" value="true" />
+      <created>1733666376869</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1733666376869</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,18 +159,25 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="Day6" />
+    <MESSAGE value="Day7" />
+    <MESSAGE value="Day8" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day8" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/3_1_py$7_2.coverage" NAME="7-2 Coverage Results" MODIFIED="1733614874320" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2024/7" />
     <SUITE FILE_PATH="coverage/3_1_py$6_1.coverage" NAME="6-1 Coverage Results" MODIFIED="1733493820018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2024/6" />
     <SUITE FILE_PATH="coverage/AdventOfCode$3_2.coverage" NAME="3-2 Coverage Results" MODIFIED="1733215491150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2024/3" />
     <SUITE FILE_PATH="coverage/AdventOfCode$1_2.coverage" NAME="1-2 Coverage Results" MODIFIED="1733148817053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2024/1" />
     <SUITE FILE_PATH="coverage/3_1_py$4_2.coverage" NAME="4-2 Coverage Results" MODIFIED="1733351370283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2024/4" />
+    <SUITE FILE_PATH="coverage/3_1_py$7_1.coverage" NAME="7-1 Coverage Results" MODIFIED="1733613121325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2024/7" />
     <SUITE FILE_PATH="coverage/AdventOfCode$3_1.coverage" NAME="3-1 Coverage Results" MODIFIED="1733215341487" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2024/3" />
     <SUITE FILE_PATH="coverage/AdventOfCode$1_1.coverage" NAME="1-1 Coverage Results" MODIFIED="1733148706356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2024/1" />
     <SUITE FILE_PATH="coverage/3_1_py$5_1.coverage" NAME="5-1 Coverage Results" MODIFIED="1733427768538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2024/5" />
+    <SUITE FILE_PATH="coverage/3_1_py$8_2.coverage" NAME="8-2 Coverage Results" MODIFIED="1733666291942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2024/8" />
     <SUITE FILE_PATH="coverage/3_1_py$6_2.coverage" NAME="6-2 Coverage Results" MODIFIED="1733495456017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2024/6" />
     <SUITE FILE_PATH="coverage/AdventOfCode$2_2.coverage" NAME="2-2 Coverage Results" MODIFIED="1733149041419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2024/2" />
+    <SUITE FILE_PATH="coverage/3_1_py$8_1.coverage" NAME="8-1 Coverage Results" MODIFIED="1733666992381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2024/8" />
     <SUITE FILE_PATH="coverage/3_1_py$5_2.coverage" NAME="5-2 Coverage Results" MODIFIED="1733428010603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2024/5" />
     <SUITE FILE_PATH="coverage/3_1_py$4_1.coverage" NAME="4-1 Coverage Results" MODIFIED="1733351336054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2024/4" />
     <SUITE FILE_PATH="coverage/3_1_py$cheat.coverage" NAME="cheat Coverage Results" MODIFIED="1733493315640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2024/6" />

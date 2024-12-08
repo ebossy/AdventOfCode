@@ -7,6 +7,8 @@ with open("7-1.txt", "r") as datei:  # Encoding anpassen, falls nötig
         num.append(tmp1)
         op.append(tmp2.strip().split(" "))
 
+#Combinations of + and * are shown as Binary numbers
+#Try all possible Combinations until it works or none does
 summary = 0
 for i in range(len(num)):
     length = 2 ** (len(op[i]) - 1)

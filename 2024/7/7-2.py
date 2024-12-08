@@ -28,6 +28,7 @@ def to_base_3(number):
 
     return base_3
 
+#instead of binary used base 3
 summary = 0
 for i in range(len(num)):
     length = 3 ** (len(op[i]) - 1)

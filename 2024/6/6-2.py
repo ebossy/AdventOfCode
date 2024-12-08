@@ -35,7 +35,7 @@ def walk_till(map):
 
 
 
-
+#adding a objekt in every possible location and try if its looped
 summary = 0
 for i in range(len(guard_map)):
     for j in range(len(guard_map[0])):

@@ -28,7 +28,7 @@ def findx(i, j):
                             return True
     return False
 
-
+#Searching for A and check corners if valid
 summary = 0
 for i in range(len(words)):
     for j in range(len(words[0])):

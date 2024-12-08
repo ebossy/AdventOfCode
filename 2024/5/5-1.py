@@ -11,6 +11,9 @@ with open("5-1.txt", "r") as datei:  # Encoding anpassen, falls nötig
         else:
             orders.append(line.split(","))
 
+
+#seperate the pairs that matter and remove 1 by one until no pairs are left, if pair is removable
+
 summary = 0
 for order in orders:
     orderRelevantPairs = [paar for paar in pairs if paar[0] in order and paar[1] in order]

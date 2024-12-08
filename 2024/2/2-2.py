@@ -1,3 +1,4 @@
+
 def p2(f):
     lines = [[int(x) for x in line.split()] for line in f.read().splitlines()]
     ans = 0

@@ -12,6 +12,7 @@ with open("1-1.txt", "r", encoding="utf-8") as datei:  # Encoding anpassen, fall
         A.append(int(zahlen[0]))
         B.append(int(zahlen[1]))
 
+#put the numbers and their frequenzy in a dict and use formula of aoc website
 from collections import Counter
 
 A1 = Counter(A)

@@ -16,10 +16,9 @@ with open("1-1.txt", "r", encoding="utf-8") as datei:  # Encoding anpassen, fall
 total_distance = 0
 
 
-
+#sort to find lowest of each and so on and get distance
 A.sort()
 B.sort()
-
 for i in range(len(A)):
     tmp = A[i]-B[i]
     if tmp<0: tmp*=-1

@@ -25,6 +25,7 @@ def correctOrder(order):
             return int(order[len(order) // 2])
 
 
+#if it does not work put the number where the error was to the end until it works
 summary = 0
 for order in orders:
     orderRelevantPairs = [paar for paar in pairs if paar[0] in order and paar[1] in order]

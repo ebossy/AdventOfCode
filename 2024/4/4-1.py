@@ -32,7 +32,7 @@ def findletter(i, j):
             tmp += 1
     return tmp
 
-
+#searching for X and look in every direction if there is MAS
 summary = 0
 for i in range(len(words)):
     for j in range(len(words[0])):
