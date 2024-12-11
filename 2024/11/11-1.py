@@ -8,11 +8,13 @@ blinks = 25
 
 for q in range(blinks):
     new_numbers = []
+    #appy rules
     for num in numbers:
         if num == "0":
             new_numbers.append("1")
         elif len(num)%2==0:
             new_numbers.append(num[:len(num)//2])
+            #str(int)) cuts off zeros
             new_numbers.append(str(int(num[len(num)//2:])))
         else:
             new_numbers.append(str(int(num)*2024))
