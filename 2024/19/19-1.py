@@ -36,4 +36,4 @@ for design in designs:
         summary += 1
 
 print(summary)
-print(pattern, designs)
+
